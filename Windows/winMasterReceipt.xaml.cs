@@ -23,5 +23,29 @@ namespace CarServiceKuchura_12.Windows
         {
             InitializeComponent();
         }
+
+        private void btnUsers_Click(object sender, RoutedEventArgs e)
+        {
+            winUsersList winUsersList = new winUsersList();
+            winUsersList.Show();
+        }
+
+        private void btnOrders_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnSmenu_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnBack_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindow = new MainWindow();
+            var This = Window.GetWindow(this);
+            mainWindow.Show();
+            This.Close();
+        }
     }
 }

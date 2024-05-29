@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="Окно мастера-приемщика" MinHeight="350" MinWidth="700" Height="450" Width="800">
     <Grid>
+        <StackPanel Orientation="Vertical">
+            <Button x:Name="btnUsers" Content="Список сотрудников" Click="btnUsers_Click"/>
+            <Button x:Name="btnOrders" Content="Список заказов" Click="btnOrders_Click"/>
+            <Button x:Name="btnSmenu" Content="Список смен" Click="btnSmenu_Click"/>
+
+            <Button x:Name="btnBack" Content="НАЗАД" Click="btnBack_Click"/>
+        </StackPanel>
+        
         
     </Grid>
 </Window>
