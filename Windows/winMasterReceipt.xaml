@@ -14,7 +14,5 @@
 
             <Button x:Name="btnBack" Content="НАЗАД" Click="btnBack_Click"/>
         </StackPanel>
-        
-        
     </Grid>
 </Window>

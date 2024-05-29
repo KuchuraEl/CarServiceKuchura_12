@@ -98,6 +98,15 @@
     <Compile Include="ApplicationData\userrole.cs">
       <DependentUpon>ModelCarService.tt</DependentUpon>
     </Compile>
+    <Compile Include="Windows\winAddOrder.xaml.cs">
+      <DependentUpon>winAddOrder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\winAddShift.xaml.cs">
+      <DependentUpon>winAddShift.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\winAddUser.xaml.cs">
+      <DependentUpon>winAddUser.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\winCarDiagnost.xaml.cs">
       <DependentUpon>winCarDiagnost.xaml</DependentUpon>
     </Compile>
@@ -125,6 +134,18 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Windows\winAddOrder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\winAddShift.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\winAddUser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Windows\winCarDiagnost.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

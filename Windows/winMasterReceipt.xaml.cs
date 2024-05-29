@@ -24,6 +24,9 @@ namespace CarServiceKuchura_12.Windows
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Обработчики переходов на окна
+        /// </summary>
         private void btnUsers_Click(object sender, RoutedEventArgs e)
         {
             winUsersList winUsersList = new winUsersList();
@@ -32,12 +35,14 @@ namespace CarServiceKuchura_12.Windows
 
         private void btnOrders_Click(object sender, RoutedEventArgs e)
         {
-
+            winAddOrder winAddOrder = new winAddOrder();
+            winAddOrder.Show();
         }
 
         private void btnSmenu_Click(object sender, RoutedEventArgs e)
         {
-
+            winAddShift winAddShift = new winAddShift();
+            winAddShift.Show();
         }
 
         private void btnBack_Click(object sender, RoutedEventArgs e)

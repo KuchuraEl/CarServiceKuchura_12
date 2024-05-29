@@ -23,18 +23,25 @@ namespace CarServiceKuchura_12.Windows
     {
         public winUsersList()
         {
+            /// <с>
+            /// подключение данных из БД для вывода в таблицу 
+            /// </с>
             InitializeComponent();
             dtListUsers.ItemsSource = DBCarServiceKuchura12Entities.GetContext().user.ToList();
         }
 
+        /// <с>
+        /// обработчик перехода в окно добавления
+        /// </с>
         private void btnAdd_Click(object sender, RoutedEventArgs e)
         {
-
+            winAddUser winAddUser = new winAddUser();
+            winAddUser.Show();
         }
 
         private void btnBack_Click(object sender, RoutedEventArgs e)
         {
-
+           
         }
     }
 }
