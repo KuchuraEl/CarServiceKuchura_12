@@ -4,6 +4,34 @@
              xmlns:local="clr-namespace:CarServiceKuchura_12"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Background" Value="LightPink"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Width" Value="255"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Width" Value="255"/>
+        </Style>
+        <Style TargetType="PasswordBox">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Width" Value="255"/>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="txblPole">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Width" Value="255"/>
+            <Setter Property="Height" Value="20"/>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="txblHeader">
+            <Setter Property="Margin" Value="35"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+
+            <Setter Property="TextAlignment" Value="Center"/>
+        </Style>
     </Application.Resources>
 </Application>

@@ -104,6 +104,9 @@
     <Compile Include="Windows\winCarMechanic.xaml.cs">
       <DependentUpon>winCarMechanic.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windows\winGuest.xaml.cs">
+      <DependentUpon>winGuest.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\winMasterReceipt.xaml.cs">
       <DependentUpon>winMasterReceipt.xaml</DependentUpon>
     </Compile>
@@ -124,6 +127,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Windows\winCarMechanic.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\winGuest.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
